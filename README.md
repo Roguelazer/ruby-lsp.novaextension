@@ -1,12 +1,14 @@
-**Ruby** provides [Solargraph](https://solargraph.org) LSP support for Ruby.
+**Ruby** provides [ruby-lsp](https://github.com/Shopify/ruby-lsp) LSP support for Ruby.
+
+This was forked from [ruby.novaextension](https://github.com/tdegrunt/ruby.novaextension), which provides [solargraph](https://solargraph.org/) support if you'd prefer to use solargraph.
 
 ## Requirements
 
 Ruby requires some additional tools to be installed on your Mac:
 
-- [Solargraph](https://solargraph.org)
+- [ruby-lsp](https://github.com/Shopify/ruby-lsp)
 
-The extension uses the solargraph from your bundle, which usually gives the best results.
+This extension cannot use ruby-lsp from your bundle; it must be installed system-wide
 
 ## Example
 

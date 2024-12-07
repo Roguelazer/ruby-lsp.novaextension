@@ -1,12 +1,12 @@
 {
-    "identifier": "tdegrunt.Ruby",
-    "name": "Ruby",
-    "organization": "tdegrunt",
-    "description": "Provides Ruby language support using Solargraph",
-    "version": "0.1.1",
+    "identifier": "com.roguelazer.RubyLsp",
+    "name": "Ruby-Lsp",
+    "organization": "James Brown",
+    "description": "Provides Ruby language support using ruby-lsp",
+    "version": "0.1.0",
     "categories": ["languages"],
-    "repository": "https://github.com/tdegrunt/ruby.novaextension/",
-    "bugs": "https://github.com/tdegrunt/ruby.novaextension/issues",
+    "repository": "https://github.com/Roguelazer/ruby-lsp.novaextension/",
+    "bugs": "https://github.com/Roguelazer/ruby-lsp.novaextension/issues",
     "license": "MIT",
     "main": "main.js",
     "activationEvents": [
@@ -21,7 +21,7 @@
             "key": "ruby.language-server-path",
             "title": "Language Server Path",
             "type": "path",
-            "placeholder": "/Users/me/.rbenv/shims/solargraph"
+            "placeholder": "/Users/me/.rbenv/shims/ruby-lsp"
         }
     ]
 }
